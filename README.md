@@ -8,8 +8,7 @@ musicXMLparse require :
 to unroll repetitions and transform from score-timewise to score-partwise
 
 # import :
-  - <script type="text/javascript" src="musicXMLparse_public.js"></script> 
-  - <!-- from https://www.saxonica.com/download/javascript.xml for musicXMLParse.js only --> 
+  - <script type="text/javascript" src="musicXMLparse_public.js"></script>  
   - <script src="Saxon/SaxonJS2.rt.js"></script>    
 
 # in your browser :
