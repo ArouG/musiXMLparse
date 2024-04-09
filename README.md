@@ -38,6 +38,7 @@ to unroll repetitions and transform from score-timewise to score-partwise
         console.log(' not an .musicXML file !');
     }
   }
+```
 
 # result :
     music.paroles : array of
