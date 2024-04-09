@@ -54,6 +54,6 @@ to unroll repetitions and transform from score-timewise to score-partwise
   nota : if all lyrics from musicXML are 'single', musicXMLparse try to make them words 
 
 # test 
-    musicXMLparse in application [MyKaraOk](https://aroug.eu/MyKaraOk)  
+    musicXMLparse in application : https://aroug.eu/MyKaraOk/
       
     
