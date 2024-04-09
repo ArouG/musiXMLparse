@@ -13,7 +13,7 @@ to unroll repetitions and transform from <score-timewise> to <score-partwise>
 <script src="Saxon/SaxonJS2.rt.js"></script>    
 
 # in your browser :
-
+[code] :
 function main(file){
     ficNam1 = file.name;
     let fileReader = new FileReader();
@@ -35,7 +35,7 @@ function main(file){
     } else {
           console.log(' not an .musicXML file !)
 }
-
+[/code]
 # result :
     music.paroles : array of
       [0] time begin syllabe (ms) : float
@@ -49,6 +49,7 @@ function main(file){
 
   nota : if all lyrics from musicXML are 'single', musicXMLparse try to make them words 
 
-# test musicXMLparse in application : http://aroug.eu/MyKaraOk  
+# test 
+    musicXMLparse in application : http://aroug.eu/MyKaraOk  
       
     
