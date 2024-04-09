@@ -19,11 +19,11 @@ function main(file){
     let fileReader = new FileReader();
     music.paroles = [];
     if (ficNam1.substring(ficNam1.length - 9) == ".musicxml") {
-          fileReader.onload = function() {
+        fileReader.onload = function() {
             musicXML = fileReader.result;
             musicXMLParse(musicXML, function(err, musicres) {
-               if (err) {
-                   console.log('error : ' + err);
+                if (err) {
+                    console.log('error : ' + err);
                 } else {
                     music = musicres;
                     musicres = {};
@@ -33,7 +33,8 @@ function main(file){
           }
           fileReader.readAsText(file);
     } else {
-          console.log(' not an .musicXML file !)
+        console.log(' not an .musicXML file !');
+    }
 }
 
 # result :
