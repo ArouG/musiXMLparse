@@ -47,8 +47,11 @@ to unroll repetitions and transform from score-timewise to score-partwise
           'end'    <=> last syllabe of word
           'begin'  <=> first syllabe of word
           'middle' <=> syllabe between 'begin' and 'end'
-
+          
   nota : if all lyrics from musicXML are 'single', musicXMLparse try to make them words 
+
+# attention :
+    musicXMLparse can't deal with changement of tempo inside one measure : only one tempo at the beginning of each measure
 
 # test 
 musicXMLparse in application : https://aroug.eu/MyKaraOk/
